@@ -7,10 +7,17 @@
 .carousel{
     width: 100vw;
     height: 70vh;
-    padding-left: 200px;
 }
 
 .w-100{
-    width: 75%!important;
+    width: 100vw;
     height: 400px!important;
+}
+
+#Home-bg{
+    background-color: rgb(105, 105, 105);
+}
+
+.d-md-block{
+    text-align: left;
 }
