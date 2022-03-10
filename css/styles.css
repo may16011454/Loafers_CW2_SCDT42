@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+.custom-font{
+    font-family: 'League Gothic', sans-serif;
+    font-size: 2em;
+}
+.carousel{
+    width: 100vw;
+    height: 70vh;
+    padding-left: 200px;
+}
+
+.w-100{
+    width: 75%!important;
+    height: 400px!important;
+}
