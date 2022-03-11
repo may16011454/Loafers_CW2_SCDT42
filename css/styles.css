@@ -27,6 +27,7 @@ html,body {
 }
 
 h1,h2{
+    padding-top: 2%;
     text-align: center;
     color: white;
 }
@@ -34,9 +35,7 @@ h1,h2{
 p{
     text-align: center;
     color: white;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 2%;
+    padding: 2%;
 }
 
 #lshop{
