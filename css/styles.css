@@ -6,7 +6,6 @@
 }
 .carousel{
     width: 100vw;
-    height: 45vh;
 }
 
 .w-100{
@@ -30,4 +29,12 @@ html,body {
 h1,h2{
     text-align: center;
     color: white;
+}
+
+p{
+    text-align: center;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
 }
