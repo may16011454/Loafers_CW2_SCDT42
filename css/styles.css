@@ -50,6 +50,10 @@
         .price{
             color: white;
         }
+        #menu-id{
+            font-size: 2em;
+            padding-bottom: 2%;
+        }
 
 .custom-font{
     font-family: 'League Gothic', sans-serif;
