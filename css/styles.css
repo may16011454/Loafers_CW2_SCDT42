@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+.navar-nav{
+    float: left;
+}
+
+
 .menu {
   display: flex;
   list-style-type: none;
