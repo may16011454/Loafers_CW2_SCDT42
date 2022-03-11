@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
 
 
-@use postcss-nested;
-
 * {
   box-sizing: border-box;
 }
@@ -110,4 +108,6 @@ p{
       color: white;
   }
 
-  
+  #nav-letters{
+      font-size: 28px;
+  }
