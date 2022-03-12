@@ -5,9 +5,6 @@
   box-sizing: border-box;
 }
 
-.navar-nav{
-    float: left;
-}
 
 
 .menu {
@@ -67,8 +64,17 @@
 }
 
 .w-100{
-    width: 100vw;
+    width: 100%;
 }
+
+.carousel-inner{
+    height: 45vh;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+
 
 #Home-bg{
     background-color: #212529;
