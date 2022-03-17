@@ -1,165 +1,161 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
-
+@import url(https://fonts.googleapis.com/css2?family=League+Gothic&display=swap);
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box
 }
 
+.menu,.menu-item {
+    display: flex;
+    list-style-type: none
+}
 
 .menu {
-  display: flex;
-  list-style-type: none;
-  flex-wrap: wrap;
-  padding: 0;
-  margin: 0 auto;
-  max-width: 960px;
-  height: 100%;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 960px;
+    height: 100%
 }
-  .menu-item {
-    display: flex;
+
+.menu-item {
     width: 50%;
-    list-style-type: none;
     padding: 0 1rem;
-    margin: 0 0 1rem;
-  }
-    section {
-      display: flex;
-      flex-direction: column;
-      flex: 1;
-    }
-      header {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-      }
-        .spacer {
-          content: '';
-          width: 100%;
-          height: 1px;
-          margin: 0 .5rem;
-          border-bottom: 1px dashed white;
-          flex: 1;
-        }
-  
-        h1 {
-          margin: 0;
-          font-size: 1rem;
-        }
-        .price{
-            color: white;
-        }
-        #menu-id{
-            font-size: 2em;
-            padding-bottom: 2%;
-            text-align: center;
-        }
-
-.custom-font{
-    font-family: 'League Gothic', sans-serif;
-    font-size: 2em;
-}
-.carousel{
-    width: 100vw;
-    height: 45vh;
+    margin: 0 0 1rem
 }
 
-.w-100{
+section {
+    display: flex;
+    flex-direction: column;
+    flex: 1
+}
+
+header {
+    display: flex;
     width: 100%;
+    justify-content: center;
+    align-items: center
 }
 
-.carousel-inner{
+.spacer {
+    content: '';
+    width: 100%;
+    height: 1px;
+    margin: 0 .5rem;
+    border-bottom: 1px dashed #fff;
+    flex: 1
+}
+
+h1 {
+    margin: 0;
+    font-size: 1rem
+}
+
+.price {
+    color: #fff
+}
+
+#menu-id {
+    font-size: 2em;
+    padding-bottom: 2%;
+    text-align: center
+}
+
+.custom-font {
+    font-family: 'League Gothic',sans-serif;
+    font-size: 2em
+}
+
+.carousel {
+    width: 100vw;
+    height: 45vh
+}
+
+.w-100 {
+    width: 100%
+}
+
+.carousel-inner {
     height: 45vh;
     position: relative;
     width: 100%;
-    overflow: hidden;
+    overflow: hidden
 }
 
-
-
-#Home-bg{
-    background-color: #212529;
+#Home-bg {
+    background-color: #212529
 }
 
-.d-md-block{
-    text-align: left;
+.d-md-block {
+    text-align: left
 }
 
-html,body {
-    margin:0;
-    padding:0;
-    overflow-x:hidden;
+body,html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden
 }
 
-h1,h2{
-    padding-top: 2%;
-    text-align: center;
-    color: white;
+h1,h2,p {
+    text-align: center
 }
 
-p{
-    text-align: center;
-    color: white;
-    padding: 2%;
+h1,h2 {
+    padding-top: 2%
 }
 
-#lshop{
-    width: 100vw;
+p {
+    padding: 2%
+}
+
+#lshop {
+    width: 100vw
 }
 
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-  }
-
-
-
-  .footer-copyright{
-      color: white;
-  }
-
-  #nav-letters{
-      font-size: 28px;
-  }
-  
-#main-h1{
-  font-size: 3rem;
+    width: 50%
 }
 
-
-
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+.footer-copyright,h1,h2,p {
+    color: #fff
 }
 
-/* Style the submit button with a specific background color etc */
+#nav-letters {
+    font-size: 28px
+}
+
+#main-h1 {
+    font-size: 3rem
+}
+
+input[type=text],select,textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
 input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+    background-color: #04aa6d;
+    color: #fff;
+    padding: 12px 20px;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #45a049;
+    background-color: #45a049
 }
 
-/* Add a background color and some padding around the form */
 .container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px
 }
