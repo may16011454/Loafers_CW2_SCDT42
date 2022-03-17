@@ -188,6 +188,6 @@ body {
 
 h1,
 p,
-h2{
+h2,body{
   color: var(--text-color);
 }
